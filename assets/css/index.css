@@ -128,10 +128,63 @@ table {
 }
 #homepage-body {
   display: flex;
+  font-size: 62.5%;
+  width: 100%;
+}
+#sidebar {
+  background: #274C77;
+  display: flex;
+  flex-direction: column;
+  width: 27%;
 }
 #sidebar .main-nav {
   width: 200px;
+  align-self: center;
+}
+#sidebar .main-nav ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 600px;
+}
+#sidebar .main-nav ul #first-li {
+  padding-top: 60%;
+}
+#sidebar .main-nav ul .else-li {
+  padding-top: 20%;
+}
+#sidebar .main-nav ul a {
+  text-decoration: none;
+  color: #E1E5F2;
+  font-size: 1.6rem;
+  align-self: center;
+  font-family: 'Roboto', sans-serif;
 }
 #container {
-  width: 900px;
+  background: #E1E5F2;
+  width: 73%;
+}
+#container #main-content #main-intro {
+  display: flex;
+}
+#container #main-content #main-intro .image-main {
+  width: 35%;
+}
+#container #main-content #the-app {
+  display: flex;
+}
+#container #main-content #the-app .image-app {
+  width: 39%;
+}
+#container #main-content #the-team {
+  display: flex;
+}
+#container #main-content #the-team .image-team {
+  width: 39%;
+}
+#container #main-content #contact {
+  display: flex;
+}
+#container #main-content #contact .image-contact {
+  width: 35%;
 }

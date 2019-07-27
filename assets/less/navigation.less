@@ -1,6 +1,33 @@
 #sidebar {
+  background: @sidebar-bg;
+  display: flex;
+  flex-direction: column;
+  width: 27%;
 
   .main-nav {
     width: 200px;
+    align-self: center;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 600px;
+
+      #first-li {
+        padding-top: 60%;
+      }
+      
+      .else-li {
+        padding-top: 20%;
+      }
+      a {
+        text-decoration: none;
+        color: @container-bg;
+        font-size: 1.6rem;
+        align-self: center;
+        font-family: @general-font;
+      }
+    }
   }
 }

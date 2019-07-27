@@ -16,10 +16,10 @@
                 style="width: 400px; height: 150px;">
             <nav class="main-nav">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Our Product</a></li>
-                    <li><a href="#">The Team</a></li>
-                    <li><a href="#">Get in Contact!</a></li>
+                    <li id="first-li"><a href="index.html">Home</a></li>
+                    <li class="else-li"><a href="#">Our Product</a></li>
+                    <li class="else-li"><a href="#">The Team</a></li>
+                    <li class="else-li"><a href="#">Get in Contact!</a></li>
                 </ul>
             </nav>
         </section>
@@ -28,7 +28,6 @@
 
             <!-- Header -->
             <header class="main-header">
-                <h1 class="product-name">Better Professor</h1>
             </header>
 
             <!-- Main -->
@@ -36,45 +35,50 @@
 
                 <!-- Intro -->
                 <div id="main-intro">
-                    <img class="image main" src="assets\img\helloquence-5fNmWej4tAA-unsplash.jpg" alt=""
-                        style="width: 400px;">
-                    <h2 class="intro-header">Get better with deadlines</h2>
-                    <p>Better Professor allows you to keep track of individual students like you
-                        haven't before. Allowing you to not stress over deadlines and tracking down assignments.
-                    </p>
+                    <img class="image-main" src="assets\img\helloquence-5fNmWej4tAA-unsplash.jpg" alt="people working on computers">
+                    <section class="description">
+                        <h2 class="intro-header">Get better with deadlines</h2>
+                        <p>Better Professor allows you to keep track of individual students like you
+                            haven't before. Allowing you to not stress over deadlines and tracking down assignments.
+                        </p>
+                    </section>
                 </div>
 
                 <!-- The App -->
                 <div id="the-app">
-                    <img class="image-app" src="assets\img\adeolu-eletu-unRkg2jH1j0-unsplash.jpg" alt=""
-                        style="width: 400px;">
-                    <h2 class="the-app-header">Lorem ipsum dolor sit amet</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tellus diam,
-                        pretium nec mollis sit amet, imperdiet quis leo. Phasellus pulvinar viverra magna,
-                        suscipit euismod est rhoncus et.
-                    </p>
-                </div>
-
-                <!-- About -->
-                <div id="the-team">
-                    <span class="image-team" src="assets\img\john-schnobrich-2FPjlAyMQTA-unsplash.jpg" alt=""
-                        style="width: 400px;">
-                        <h2 class="the-team-header">Lorem ipsum dolor sit amet</h2>
+                    <img class="image-app" src="assets\img\adeolu-eletu-unRkg2jH1j0-unsplash.jpg" alt="person using app">
+                    <section class="description">    
+                        <h2 class="the-app-header">Lorem ipsum dolor sit amet</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tellus diam,
                             pretium nec mollis sit amet, imperdiet quis leo. Phasellus pulvinar viverra magna,
                             suscipit euismod est rhoncus et.
                         </p>
+                    </section>
+                </div>
+
+                <!-- About -->
+                <div id="the-team">
+                    <img class="image-team" src="assets\img\john-schnobrich-2FPjlAyMQTA-unsplash.jpg" alt="people pointing at computer">
+                    <section class="description">    
+                        <h2 class="the-team-header">Lorem ipsum dolor sit amet</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tellus diam,
+                                pretium nec mollis sit amet, imperdiet quis leo. Phasellus pulvinar viverra magna,
+                                suscipit euismod est rhoncus et.
+                        </p>
+                    </section>
                 </div>
 
                 <!-- Contact -->
                 <div id="contact">
-                    <h2> Contact Us </h2>
-                    <img class="image-contact" src="assets\img\photo-1528747045269-390fe33c19f2.jpg" alt=""
-                        style="width: 400px;">
-                    <p>Number: 000-000-0000 <br>
-                        Email: Betterprofdevs@BFI.com <br>
-                        Address: 1234 S 1st Street
-                    </p>
+                    <img class="image-contact" src="assets\img\photo-1528747045269-390fe33c19f2.jpg" alt="contact image">
+                    <section class="description">
+                        <h2> Contact Us </h2>
+                        <ul class="contact-info">
+                            <li>Number: 000-000-0000</li>
+                            <li>Email: Betterprofdevs@BFI.com</li>
+                            <li>Address: 1234 S 1st Street</li>
+                        </ul>
+                    </section>
                     <div class="icons">
                         <a href="https://github.com/buildweek-jul19-betterprofessor/marketing-page"
                             class="icon brands fa-github"><span class="label">GitHub</span></a>
