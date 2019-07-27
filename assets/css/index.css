@@ -126,3 +126,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+#homepage-body {
+  display: flex;
+}
+#sidebar .main-nav {
+  width: 200px;
+}
+#container {
+  width: 700px;
+}
