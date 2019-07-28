@@ -131,11 +131,11 @@ table {
   border-spacing: 0;
 }
 #homepage-body {
-  display: flex;
   font-size: 62.5%;
   max-width: 100%;
 }
 #sidebar {
+  position: fixed;
   background: #274C77;
   display: flex;
   flex-direction: column;
@@ -170,32 +170,44 @@ table {
   font-family: 'Roboto', sans-serif;
 }
 #container {
-  background-color: #E1E5F2;
-  max-width: 73%;
+  max-width: 100%;
+  margin-left: 27%;
 }
 #container #main-content #main-intro {
+  height: 150vh;
+  background-image: url("helloquence-5fNmWej4tAA-unsplash.jpg");
+  background-color: #E1E5F2;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
-}
-#container #main-content #main-intro .image-main {
-  max-width: 39%;
 }
 #container #main-content #the-app {
+  height: 150vh;
+  background-image: url("adeolu-eletu-unRkg2jH1j0-unsplash.jpg");
+  background-color: #E1E5F2;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
-}
-#container #main-content #the-app .image-app {
-  max-width: 39%;
 }
 #container #main-content #the-team {
+  height: 150vh;
+  background-image: url("john-schnobrich-2FPjlAyMQTA-unsplash.jpg");
+  background-color: #E1E5F2;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
-}
-#container #main-content #the-team .image-team {
-  max-width: 39%;
 }
 #container #main-content #contact {
+  height: 150vh;
+  background-image: url("photo-1528747045269-390fe33c19f2.jpg");
+  background-color: #E1E5F2;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
-}
-#container #main-content #contact .image-contact {
-  max-width: 39%;
 }
 #footer {
   display: flex;

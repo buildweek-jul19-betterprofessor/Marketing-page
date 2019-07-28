@@ -1,41 +1,22 @@
-.container {  
-  max-width: 73%;
+#container {  
+  max-width: 100%;
+  margin-left: 27%;
 
-  .main-content {
+  #main-content {
 
-    .main-intro {
-      display: flex;
-
-      
-      .image-main {
-        max-width: 39%;
-      }
+    #main-intro {
+      .content-bg(url("helloquence-5fNmWej4tAA-unsplash.jpg"));
     }
 
-    .the-app {
-      background-color: @container-bg2;
-      display: flex;
-
-      .image-app {
-        max-width: 39%;
+    #the-app {
+        .content-bg(url("adeolu-eletu-unRkg2jH1j0-unsplash.jpg"));
       }
+
+    #the-team {
+      .content-bg(url("john-schnobrich-2FPjlAyMQTA-unsplash.jpg"));
     }
-
-    .the-team {
-      background-color: @container-bg1;
-      display: flex;
-
-      .image-team {
-        max-width: 39%;
-      }
-    }
-    .contact {
-      background-color: @container-bg2;
-      display: flex;
-
-      .image-contact {
-        max-width: 39%;
-      }
+    #contact {
+      .content-bg(url("photo-1528747045269-390fe33c19f2.jpg"));
     }
   }
 }
