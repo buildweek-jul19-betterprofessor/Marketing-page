@@ -170,30 +170,43 @@ table {
   font-family: 'Roboto', sans-serif;
 }
 #container {
-  background: #E1E5F2;
-  width: 73%;
+  background-color: #E1E5F2;
+  max-width: 73%;
 }
 #container #main-content #main-intro {
   display: flex;
 }
 #container #main-content #main-intro .image-main {
-  width: 35%;
+  max-width: 39%;
 }
 #container #main-content #the-app {
   display: flex;
 }
 #container #main-content #the-app .image-app {
-  width: 39%;
+  max-width: 39%;
 }
 #container #main-content #the-team {
   display: flex;
 }
 #container #main-content #the-team .image-team {
-  width: 39%;
+  max-width: 39%;
 }
 #container #main-content #contact {
   display: flex;
 }
 #container #main-content #contact .image-contact {
-  width: 35%;
+  max-width: 39%;
+}
+#footer {
+  display: flex;
+  max-width: 100%;
+  padding: 1.8rem;
+  align-items: center;
+  justify-content: center;
+  background: #6096BA;
+}
+#footer p {
+  font-size: 0.8rem;
+  font-family: 'Roboto', sans-serif;
+  max-width: 80%;
 }
