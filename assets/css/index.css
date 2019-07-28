@@ -1,3 +1,7 @@
+.flex-collumn {
+  display: flex;
+  flex-direction: column;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -129,16 +133,21 @@ table {
 #homepage-body {
   display: flex;
   font-size: 62.5%;
-  width: 100%;
+  max-width: 100%;
 }
 #sidebar {
   background: #274C77;
   display: flex;
   flex-direction: column;
-  width: 27%;
+  max-width: 27%;
+}
+#sidebar .logo {
+  width: auto;
+  max-width: 100%;
+  max-height: 150px;
 }
 #sidebar .main-nav {
-  width: 200px;
+  max-width: 200px;
   align-self: center;
 }
 #sidebar .main-nav ul {
