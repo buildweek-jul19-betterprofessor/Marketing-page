@@ -185,6 +185,10 @@ table {
   align-self: center;
   font-family: 'Roboto', sans-serif;
 }
+#sidebar .main-nav ul a:hover {
+  text-decoration: underline;
+  text-decoration-color: #E1E5F2;
+}
 #container {
   max-width: 100%;
   margin-left: 27%;
@@ -207,6 +211,9 @@ table {
   font-family: 'Roboto', sans-serif;
   flex-wrap: wrap;
   background-color: rgba(225, 229, 242, 0.6);
+}
+#container #main-content #main-intro .description h2 {
+  font-family: 'Raleway', sans-serif;
 }
 #container #main-content #main-intro .description p {
   font-size: 1.6rem;
@@ -232,6 +239,9 @@ table {
   flex-wrap: wrap;
   background-color: rgba(225, 229, 242, 0.6);
 }
+#container #main-content #the-app .description h2 {
+  font-family: 'Raleway', sans-serif;
+}
 #container #main-content #the-app .description p {
   font-size: 1.6rem;
   padding: 60;
@@ -256,6 +266,9 @@ table {
   flex-wrap: wrap;
   background-color: rgba(225, 229, 242, 0.6);
 }
+#container #main-content #the-team .description h2 {
+  font-family: 'Raleway', sans-serif;
+}
 #container #main-content #the-team .description p {
   font-size: 1.6rem;
   padding: 60;
@@ -279,6 +292,9 @@ table {
   font-family: 'Roboto', sans-serif;
   flex-wrap: wrap;
   background-color: rgba(225, 229, 242, 0.6);
+}
+#container #main-content #contact .description h2 {
+  font-family: 'Raleway', sans-serif;
 }
 #container #main-content #contact .description p {
   font-size: 1.6rem;
