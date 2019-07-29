@@ -1,6 +1,22 @@
-.flex-collumn {
+.flex-column {
   display: flex;
   flex-direction: column;
+}
+.content-text {
+  padding-top: 60px;
+  display: flex;
+  font-size: 2.5rem;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  flex-wrap: wrap;
+  background-color: rgba(225, 229, 242, 0.6);
+}
+.content-subtext {
+  font-size: 1.6rem;
+  padding: 60;
+  width: 100%;
+  text-align: center;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -172,6 +188,7 @@ table {
 #container {
   max-width: 100%;
   margin-left: 27%;
+  background-image: linear-gradient(#E1E5F2, #8B8C89);
 }
 #container #main-content #main-intro {
   height: 150vh;
@@ -180,7 +197,22 @@ table {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+#container #main-content #main-intro .description {
+  padding-top: 60px;
   display: flex;
+  font-size: 2.5rem;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  flex-wrap: wrap;
+  background-color: rgba(225, 229, 242, 0.6);
+}
+#container #main-content #main-intro .description p {
+  font-size: 1.6rem;
+  padding: 60;
+  width: 100%;
+  text-align: center;
 }
 #container #main-content #the-app {
   height: 150vh;
@@ -189,7 +221,22 @@ table {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+#container #main-content #the-app .description {
+  padding-top: 60px;
   display: flex;
+  font-size: 2.5rem;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  flex-wrap: wrap;
+  background-color: rgba(225, 229, 242, 0.6);
+}
+#container #main-content #the-app .description p {
+  font-size: 1.6rem;
+  padding: 60;
+  width: 100%;
+  text-align: center;
 }
 #container #main-content #the-team {
   height: 150vh;
@@ -198,7 +245,22 @@ table {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+#container #main-content #the-team .description {
+  padding-top: 60px;
   display: flex;
+  font-size: 2.5rem;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  flex-wrap: wrap;
+  background-color: rgba(225, 229, 242, 0.6);
+}
+#container #main-content #the-team .description p {
+  font-size: 1.6rem;
+  padding: 60;
+  width: 100%;
+  text-align: center;
 }
 #container #main-content #contact {
   height: 150vh;
@@ -207,7 +269,22 @@ table {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+#container #main-content #contact .description {
+  padding-top: 60px;
   display: flex;
+  font-size: 2.5rem;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  flex-wrap: wrap;
+  background-color: rgba(225, 229, 242, 0.6);
+}
+#container #main-content #contact .description p {
+  font-size: 1.6rem;
+  padding: 60;
+  width: 100%;
+  text-align: center;
 }
 #footer {
   display: flex;
