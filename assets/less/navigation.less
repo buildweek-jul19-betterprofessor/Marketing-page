@@ -1,6 +1,38 @@
 #sidebar {
+  position: fixed;
+  background: @sidebar-bg;
+  .flex-column();
+  max-width: 27%;
+
+  .logo {
+   width: auto;
+   max-width: 100%; 
+   max-height: 150px;
+  }
 
   .main-nav {
-    width: 200px;
+    max-width: 200px;
+    align-self: center;
+
+    ul {
+      .flex-column();
+      flex-wrap: wrap;
+      height: 600px;
+
+      #first-li {
+        padding-top: 60%;
+      }
+      
+      .else-li {
+        padding-top: 20%;
+      }
+      a {
+        text-decoration: none;
+        color: @container-bg1;
+        font-size: 1.6rem;
+        align-self: center;
+        font-family: @general-font;
+      }
+    }
   }
 }

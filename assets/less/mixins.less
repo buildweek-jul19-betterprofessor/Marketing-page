@@ -1,0 +1,31 @@
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-bg (@image) {
+    height: 150vh;
+    background-image: @image;
+    background-color: @container-bg1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content-text {
+    padding-top: 60px;
+    display: flex;
+    font-size: 2.5rem;
+    align-content: center;
+    justify-content: center;
+    font-family: @general-font;
+    flex-wrap: wrap;
+    background-color: rgba(225, 229, 242, 0.6);
+}
+
+.content-subtext {
+    font-size: 1.6rem;
+    padding: 60;
+    width: 100%;
+    text-align: center;
+}

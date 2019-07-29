@@ -1,3 +1,23 @@
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.content-text {
+  padding-top: 60px;
+  display: flex;
+  font-size: 2.5rem;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  flex-wrap: wrap;
+  background-color: rgba(225, 229, 242, 0.6);
+}
+.content-subtext {
+  font-size: 1.6rem;
+  padding: 60;
+  width: 100%;
+  text-align: center;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -127,11 +147,155 @@ table {
   border-spacing: 0;
 }
 #homepage-body {
+  font-size: 62.5%;
+  max-width: 100%;
+}
+#sidebar {
+  position: fixed;
+  background: #274C77;
   display: flex;
+  flex-direction: column;
+  max-width: 27%;
+}
+#sidebar .logo {
+  width: auto;
+  max-width: 100%;
+  max-height: 150px;
 }
 #sidebar .main-nav {
-  width: 200px;
+  max-width: 200px;
+  align-self: center;
+}
+#sidebar .main-nav ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 600px;
+}
+#sidebar .main-nav ul #first-li {
+  padding-top: 60%;
+}
+#sidebar .main-nav ul .else-li {
+  padding-top: 20%;
+}
+#sidebar .main-nav ul a {
+  text-decoration: none;
+  color: #E1E5F2;
+  font-size: 1.6rem;
+  align-self: center;
+  font-family: 'Roboto', sans-serif;
 }
 #container {
-  width: 900px;
+  max-width: 100%;
+  margin-left: 27%;
+  background-image: linear-gradient(#E1E5F2, #8B8C89);
+}
+#container #main-content #main-intro {
+  height: 150vh;
+  background-image: url("helloquence-5fNmWej4tAA-unsplash.jpg");
+  background-color: #E1E5F2;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#container #main-content #main-intro .description {
+  padding-top: 60px;
+  display: flex;
+  font-size: 2.5rem;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  flex-wrap: wrap;
+  background-color: rgba(225, 229, 242, 0.6);
+}
+#container #main-content #main-intro .description p {
+  font-size: 1.6rem;
+  padding: 60;
+  width: 100%;
+  text-align: center;
+}
+#container #main-content #the-app {
+  height: 150vh;
+  background-image: url("adeolu-eletu-unRkg2jH1j0-unsplash.jpg");
+  background-color: #E1E5F2;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#container #main-content #the-app .description {
+  padding-top: 60px;
+  display: flex;
+  font-size: 2.5rem;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  flex-wrap: wrap;
+  background-color: rgba(225, 229, 242, 0.6);
+}
+#container #main-content #the-app .description p {
+  font-size: 1.6rem;
+  padding: 60;
+  width: 100%;
+  text-align: center;
+}
+#container #main-content #the-team {
+  height: 150vh;
+  background-image: url("john-schnobrich-2FPjlAyMQTA-unsplash.jpg");
+  background-color: #E1E5F2;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#container #main-content #the-team .description {
+  padding-top: 60px;
+  display: flex;
+  font-size: 2.5rem;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  flex-wrap: wrap;
+  background-color: rgba(225, 229, 242, 0.6);
+}
+#container #main-content #the-team .description p {
+  font-size: 1.6rem;
+  padding: 60;
+  width: 100%;
+  text-align: center;
+}
+#container #main-content #contact {
+  height: 150vh;
+  background-image: url("photo-1528747045269-390fe33c19f2.jpg");
+  background-color: #E1E5F2;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#container #main-content #contact .description {
+  padding-top: 60px;
+  display: flex;
+  font-size: 2.5rem;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  flex-wrap: wrap;
+  background-color: rgba(225, 229, 242, 0.6);
+}
+#container #main-content #contact .description p {
+  font-size: 1.6rem;
+  padding: 60;
+  width: 100%;
+  text-align: center;
+}
+#footer {
+  display: flex;
+  max-width: 100%;
+  padding: 1.8rem;
+  align-items: center;
+  justify-content: center;
+  background: #6096BA;
+}
+#footer p {
+  font-size: 0.8rem;
+  font-family: 'Roboto', sans-serif;
+  max-width: 80%;
 }
