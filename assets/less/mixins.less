@@ -1,6 +1,7 @@
 .flex-column {
     display: flex;
     flex-direction: column;
+
 }
 
 .content-bg (@image) {
@@ -10,6 +11,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    @media @mobile {
+        height: 100vh;
+    }
 }
 
 .content-text {
@@ -21,6 +26,11 @@
     font-family: @general-font;
     flex-wrap: wrap;
     background-color: rgba(225, 229, 242, 0.6);
+
+    @media @mobile {
+        font-size: 1.6rem;
+        padding-top: 20px;
+    }
 }
 
 .content-subtext {
@@ -28,4 +38,9 @@
     padding: 60;
     width: 100%;
     text-align: center;
+
+    @media @mobile {
+        font-size: 1rem;
+        padding: 20px;
+    }
 }

@@ -12,11 +12,23 @@
   flex-wrap: wrap;
   background-color: rgba(225, 229, 242, 0.6);
 }
+@media (max-width: 500px) {
+  .content-text {
+    font-size: 1.6rem;
+    padding-top: 20px;
+  }
+}
 .content-subtext {
   font-size: 1.6rem;
   padding: 60;
   width: 100%;
   text-align: center;
+}
+@media (max-width: 500px) {
+  .content-subtext {
+    font-size: 1rem;
+    padding: 20px;
+  }
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -189,10 +201,55 @@ table {
   text-decoration: underline;
   text-decoration-color: #E1E5F2;
 }
+@media (max-width: 500px) {
+  #sidebar {
+    max-width: 500px;
+    width: 100%;
+    max-height: 165px;
+    display: flex;
+    position: static;
+  }
+  #sidebar .logo {
+    padding-top: 75px;
+    padding-left: 25%;
+    padding-right: 26%;
+    max-width: 50%;
+  }
+  #sidebar .main-nav {
+    background: #274C77;
+    max-width: 100%;
+    max-height: 75px;
+    position: fixed;
+  }
+  #sidebar .main-nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    max-width: 100%;
+    max-height: 75px;
+  }
+  #sidebar .main-nav ul #first-li {
+    padding: 15px;
+  }
+  #sidebar .main-nav ul .else-li {
+    padding: 15px;
+  }
+  #sidebar .main-nav ul a {
+    font-size: 1rem;
+    align-self: auto;
+  }
+}
 #container {
   max-width: 100%;
   margin-left: 27%;
   background-image: linear-gradient(#E1E5F2, #8B8C89);
+}
+@media (max-width: 500px) {
+  #container {
+    max-width: 500px;
+    margin-left: 0;
+  }
 }
 #container #main-content #main-intro {
   height: 150vh;
@@ -201,6 +258,11 @@ table {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+@media (max-width: 500px) {
+  #container #main-content #main-intro {
+    height: 100vh;
+  }
 }
 #container #main-content #main-intro .description {
   padding-top: 60px;
@@ -212,6 +274,12 @@ table {
   flex-wrap: wrap;
   background-color: rgba(225, 229, 242, 0.6);
 }
+@media (max-width: 500px) {
+  #container #main-content #main-intro .description {
+    font-size: 1.6rem;
+    padding-top: 20px;
+  }
+}
 #container #main-content #main-intro .description h2 {
   font-family: 'Raleway', sans-serif;
 }
@@ -221,6 +289,12 @@ table {
   width: 100%;
   text-align: center;
 }
+@media (max-width: 500px) {
+  #container #main-content #main-intro .description p {
+    font-size: 1rem;
+    padding: 20px;
+  }
+}
 #container #main-content #the-app {
   height: 150vh;
   background-image: url("adeolu-eletu-unRkg2jH1j0-unsplash.jpg");
@@ -228,6 +302,11 @@ table {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+@media (max-width: 500px) {
+  #container #main-content #the-app {
+    height: 100vh;
+  }
 }
 #container #main-content #the-app .description {
   padding-top: 60px;
@@ -239,6 +318,12 @@ table {
   flex-wrap: wrap;
   background-color: rgba(225, 229, 242, 0.6);
 }
+@media (max-width: 500px) {
+  #container #main-content #the-app .description {
+    font-size: 1.6rem;
+    padding-top: 20px;
+  }
+}
 #container #main-content #the-app .description h2 {
   font-family: 'Raleway', sans-serif;
 }
@@ -248,6 +333,12 @@ table {
   width: 100%;
   text-align: center;
 }
+@media (max-width: 500px) {
+  #container #main-content #the-app .description p {
+    font-size: 1rem;
+    padding: 20px;
+  }
+}
 #container #main-content #the-team {
   height: 150vh;
   background-image: url("john-schnobrich-2FPjlAyMQTA-unsplash.jpg");
@@ -255,6 +346,11 @@ table {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+@media (max-width: 500px) {
+  #container #main-content #the-team {
+    height: 100vh;
+  }
 }
 #container #main-content #the-team .description {
   padding-top: 60px;
@@ -266,6 +362,12 @@ table {
   flex-wrap: wrap;
   background-color: rgba(225, 229, 242, 0.6);
 }
+@media (max-width: 500px) {
+  #container #main-content #the-team .description {
+    font-size: 1.6rem;
+    padding-top: 20px;
+  }
+}
 #container #main-content #the-team .description h2 {
   font-family: 'Raleway', sans-serif;
 }
@@ -275,6 +377,12 @@ table {
   width: 100%;
   text-align: center;
 }
+@media (max-width: 500px) {
+  #container #main-content #the-team .description p {
+    font-size: 1rem;
+    padding: 20px;
+  }
+}
 #container #main-content #contact {
   height: 150vh;
   background-image: url("photo-1528747045269-390fe33c19f2.jpg");
@@ -282,6 +390,11 @@ table {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+@media (max-width: 500px) {
+  #container #main-content #contact {
+    height: 100vh;
+  }
 }
 #container #main-content #contact .description {
   padding-top: 60px;
@@ -293,6 +406,12 @@ table {
   flex-wrap: wrap;
   background-color: rgba(225, 229, 242, 0.6);
 }
+@media (max-width: 500px) {
+  #container #main-content #contact .description {
+    font-size: 1.6rem;
+    padding-top: 20px;
+  }
+}
 #container #main-content #contact .description h2 {
   font-family: 'Raleway', sans-serif;
 }
@@ -302,8 +421,11 @@ table {
   width: 100%;
   text-align: center;
 }
-#container #main-content #contact .description p a .linkedin-square {
-  text-decoration: none;
+@media (max-width: 500px) {
+  #container #main-content #contact .description p {
+    font-size: 1rem;
+    padding: 20px;
+  }
 }
 #footer {
   display: flex;
