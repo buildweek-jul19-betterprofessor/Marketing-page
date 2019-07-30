@@ -302,6 +302,9 @@ table {
   width: 100%;
   text-align: center;
 }
+#container #main-content #contact .description p a .linkedin-square {
+  text-decoration: none;
+}
 #footer {
   display: flex;
   max-width: 100%;
