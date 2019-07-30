@@ -4,6 +4,8 @@
   .flex-column();
   max-width: 27%;
 
+  
+
   .logo {
    width: auto;
    max-width: 100%; 
@@ -37,6 +39,51 @@
       a:hover {
         text-decoration: underline;
         text-decoration-color: @container-bg1;
+      }
+    }
+  }
+
+  @media @mobile {
+    max-width: 500px;
+    width: 100%;
+    max-height: 165px;
+    display: flex;
+    position: static;
+  
+    .logo {
+      padding-top: 75px;
+      padding-left: 25%; 
+      padding-right: 26%; 
+      max-width: 50%;
+    }
+   
+     .main-nav {
+      background: @sidebar-bg;
+      max-width: 100%;
+      max-height: 75px;
+      position: fixed;
+      // display: flex;
+      // justify-content: space-around;
+   
+      ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        max-width: 100%;
+        max-height: 75px;
+    
+        #first-li {
+          padding: 15px;
+        }
+          
+        .else-li {
+          padding: 15px;
+        }
+        a {
+          font-size: 1rem;
+          align-self: auto;
+        }
       }
     }
   }
