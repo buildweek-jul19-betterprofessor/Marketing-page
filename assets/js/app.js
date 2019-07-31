@@ -1,15 +1,5 @@
 //Animation Script
 
-function scrollAppearTwo(){
-  var mainLogoTxt = document.querySelector('.main-logo-txt');
-  var mainLogoPosition = mainLogoTxt.getBoundingClientRect().top;
-  var screenPosition = window.innerHeight;
-
-  if(mainLogoPosition < screenPosition) {
-    mainLogoTxt.classList.add('main-logo-txt-fadein');
-  }
-}
-scrollAppearTwo();
 // Scrolling Script
 function smoothScroll(target, duration){
   var target = document.querySelector(target);
