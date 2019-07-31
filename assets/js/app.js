@@ -1,4 +1,3 @@
-//Animation Script
 
 // Scrolling Script
 function smoothScroll(target, duration){
