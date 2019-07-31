@@ -443,6 +443,12 @@ table {
     padding: 20px;
   }
 }
+#container #main-content #contact .description p .app-link {
+  color: black;
+}
+#container #main-content #contact .description p .app-link:hover {
+  color: #274C77;
+}
 #footer {
   display: flex;
   max-width: 100%;
