@@ -1,7 +1,9 @@
 // Scrolling Script
+
 function smoothScroll(target, duration){
   var target = document.querySelector(target);
   var targetPosition = target.getBoundingClientRect().top;
+  var targetPositionMobile = target.getBoundingClientRect().top - 75;
   var startPosition = window.pageYOffset;
   var startTime = null;
 
@@ -9,7 +11,16 @@ function smoothScroll(target, duration){
     if(startTime === null) startTime = currentTime;
     var timeElapsed = currentTime - startTime;
     var run = ease(timeElapsed, startPosition, targetPosition, duration);
-    window.scrollTo(0, run);
+    var run2 = ease(timeElapsed, startPosition, targetPositionMobile, duration);
+    function init(){
+      let query = window.matchMedia('(max-width: 500px)')
+      if(query.matches) {
+        window.scrollTo(0, run2)
+      }else {
+        window.scrollTo(0, run);
+      }
+    }
+    init();
     if(timeElapsed < duration) requestAnimationFrame(animation);
   }
 

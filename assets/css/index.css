@@ -162,6 +162,12 @@ table {
   font-size: 62.5%;
   max-width: 100%;
 }
+@media (max-width: 500px) {
+  #homepage-body {
+    display: flex;
+    flex-direction: column;
+  }
+}
 #sidebar {
   position: fixed;
   background: #274C77;
@@ -169,13 +175,16 @@ table {
   flex-direction: column;
   max-width: 27%;
 }
-#sidebar .logo {
+#sidebar .main-logo-txt {
   width: auto;
-  max-width: 100%;
-  max-height: 150px;
+  text-align: center;
+  font-size: 5rem;
+  padding-top: 10%;
+  font-family: 'Shadows Into Light', cursive;
+  color: #E1E5F2;
 }
 #sidebar .main-nav {
-  max-width: 200px;
+  max-width: 100%;
   align-self: center;
 }
 #sidebar .main-nav ul {
@@ -185,10 +194,12 @@ table {
   height: 600px;
 }
 #sidebar .main-nav ul #first-li {
-  padding-top: 60%;
+  padding-top: 15%;
+  text-align: center;
 }
 #sidebar .main-nav ul .else-li {
   padding-top: 20%;
+  text-align: center;
 }
 #sidebar .main-nav ul a {
   text-decoration: none;
@@ -198,7 +209,6 @@ table {
   font-family: 'Roboto', sans-serif;
 }
 #sidebar .main-nav ul a:hover {
-  text-decoration: underline;
   text-decoration-color: #E1E5F2;
 }
 @media (max-width: 500px) {
@@ -220,6 +230,11 @@ table {
     max-width: 100%;
     max-height: 75px;
     position: fixed;
+    display: flex;
+  }
+  #sidebar .main-nav .main-logo-txt {
+    font-size: 1.6rem;
+    padding-top: 2%;
   }
   #sidebar .main-nav ul {
     display: flex;
@@ -248,6 +263,7 @@ table {
 @media (max-width: 500px) {
   #container {
     max-width: 500px;
+    margin-top: 15%;
     margin-left: 0;
   }
 }
