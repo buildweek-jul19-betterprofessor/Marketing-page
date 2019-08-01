@@ -387,17 +387,86 @@ table {
 #container #main-content #the-team .description h2 {
   font-family: 'Raleway', sans-serif;
 }
-#container #main-content #the-team .description p {
-  font-size: 1.6rem;
-  padding: 60;
-  width: 100%;
-  text-align: center;
+#container #main-content #the-team .description .the-team-content {
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-around;
 }
-@media (max-width: 500px) {
-  #container #main-content #the-team .description p {
-    font-size: 1rem;
-    padding: 20px;
-  }
+#container #main-content #the-team .description .the-team-content .anna {
+  display: flex;
+  flex-direction: column;
+  max-width: 20%;
+}
+#container #main-content #the-team .description .the-team-content .anna img {
+  width: 100%;
+}
+#container #main-content #the-team .description .the-team-content .anna .anna-desc h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  padding-top: 5%;
+}
+#container #main-content #the-team .description .the-team-content .anna .anna-desc p {
+  font-size: 1.5rem;
+  padding-top: 26%;
+  padding-bottom: 10%;
+  width: 120%;
+}
+#container #main-content #the-team .description .the-team-content .kai {
+  display: flex;
+  flex-direction: column;
+  max-width: 20%;
+}
+#container #main-content #the-team .description .the-team-content .kai img {
+  width: 100%;
+}
+#container #main-content #the-team .description .the-team-content .kai .kai-desc h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  padding-top: 5%;
+}
+#container #main-content #the-team .description .the-team-content .kai .kai-desc p {
+  font-size: 1.5rem;
+  padding-top: 12%;
+  padding-bottom: 10%;
+  width: 120%;
+}
+#container #main-content #the-team .description .the-team-content .leroy {
+  display: flex;
+  flex-direction: column;
+  max-width: 20%;
+}
+#container #main-content #the-team .description .the-team-content .leroy img {
+  width: 100%;
+}
+#container #main-content #the-team .description .the-team-content .leroy .leroy-desc h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  padding-top: 5%;
+}
+#container #main-content #the-team .description .the-team-content .leroy .leroy-desc p {
+  font-size: 1.5rem;
+  padding-top: 25%;
+  padding-bottom: 10%;
+  width: 120%;
+}
+#container #main-content #the-team .description .the-team-content .roberto {
+  display: flex;
+  flex-direction: column;
+  max-width: 20%;
+}
+#container #main-content #the-team .description .the-team-content .roberto img {
+  width: 100%;
+}
+#container #main-content #the-team .description .the-team-content .roberto .roberto-desc h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  padding-top: 5%;
+}
+#container #main-content #the-team .description .the-team-content .roberto .roberto-desc p {
+  font-size: 1.5rem;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: 120%;
 }
 #container #main-content #contact {
   height: 150vh;
@@ -430,6 +499,7 @@ table {
 }
 #container #main-content #contact .description h2 {
   font-family: 'Raleway', sans-serif;
+  text-align: center;
 }
 #container #main-content #contact .description p {
   font-size: 1.6rem;
