@@ -377,6 +377,7 @@ table {
   font-family: 'Roboto', sans-serif;
   flex-wrap: wrap;
   background-color: rgba(225, 229, 242, 0.6);
+  padding-bottom: 15px;
 }
 @media (max-width: 500px) {
   #container #main-content #the-team .description {
@@ -411,6 +412,10 @@ table {
   padding-bottom: 10%;
   width: 120%;
 }
+#container #main-content #the-team .description .the-team-content .anna .anna-desc .icons {
+  display: flex;
+  justify-content: space-around;
+}
 #container #main-content #the-team .description .the-team-content .kai {
   display: flex;
   flex-direction: column;
@@ -429,6 +434,10 @@ table {
   padding-top: 12%;
   padding-bottom: 10%;
   width: 120%;
+}
+#container #main-content #the-team .description .the-team-content .kai .kai-desc .icons {
+  display: flex;
+  justify-content: space-around;
 }
 #container #main-content #the-team .description .the-team-content .leroy {
   display: flex;
@@ -449,6 +458,10 @@ table {
   padding-bottom: 10%;
   width: 120%;
 }
+#container #main-content #the-team .description .the-team-content .leroy .leroy-desc .icons {
+  display: flex;
+  justify-content: space-around;
+}
 #container #main-content #the-team .description .the-team-content .roberto {
   display: flex;
   flex-direction: column;
@@ -467,6 +480,10 @@ table {
   padding-top: 10%;
   padding-bottom: 10%;
   width: 110%;
+}
+#container #main-content #the-team .description .the-team-content .roberto .roberto-desc .icons {
+  display: flex;
+  justify-content: space-around;
 }
 @media (max-width: 500px) {
   #container #main-content #the-team .description .the-team-content {
@@ -615,6 +632,14 @@ table {
 }
 #container #main-content #contact .description p .app-link:hover {
   color: #274C77;
+}
+#container #main-content #contact .description p .linked-icon {
+  font-size: 2.4rem;
+  padding-top: 10px;
+}
+#container #main-content #contact .description p .linked-icon:hover {
+  cursor: pointer;
+  color: #6096BA;
 }
 #footer {
   display: flex;
