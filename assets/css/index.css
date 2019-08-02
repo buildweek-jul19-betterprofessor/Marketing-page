@@ -468,6 +468,103 @@ table {
   padding-bottom: 10%;
   width: 110%;
 }
+@media (max-width: 500px) {
+  #container #main-content #the-team .description .the-team-content {
+    flex-direction: column;
+  }
+  #container #main-content #the-team .description .the-team-content .anna {
+    flex-direction: row;
+    max-width: 100%;
+  }
+  #container #main-content #the-team .description .the-team-content .anna img {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+    height: 75%;
+  }
+  #container #main-content #the-team .description .the-team-content .anna .anna-desc {
+    margin-left: 1%;
+  }
+  #container #main-content #the-team .description .the-team-content .anna .anna-desc h2 {
+    text-decoration: underline;
+    font-size: 1.5rem;
+    padding-top: 5px;
+  }
+  #container #main-content #the-team .description .the-team-content .anna .anna-desc p {
+    font-size: 1.2rem;
+    padding-top: 5px;
+    width: 95%;
+  }
+  #container #main-content #the-team .description .the-team-content .kai {
+    flex-direction: row;
+    max-width: 100%;
+  }
+  #container #main-content #the-team .description .the-team-content .kai img {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+    height: 75%;
+  }
+  #container #main-content #the-team .description .the-team-content .kai .kai-desc {
+    margin-left: 1%;
+  }
+  #container #main-content #the-team .description .the-team-content .kai .kai-desc h2 {
+    text-decoration: underline;
+    font-size: 1.5rem;
+    padding-top: 5px;
+  }
+  #container #main-content #the-team .description .the-team-content .kai .kai-desc p {
+    font-size: 1.2rem;
+    padding-top: 5px;
+    width: 95%;
+  }
+  #container #main-content #the-team .description .the-team-content .leroy {
+    flex-direction: row;
+    max-width: 100%;
+  }
+  #container #main-content #the-team .description .the-team-content .leroy img {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+    height: 75%;
+  }
+  #container #main-content #the-team .description .the-team-content .leroy .leroy-desc {
+    margin-left: 1%;
+  }
+  #container #main-content #the-team .description .the-team-content .leroy .leroy-desc h2 {
+    text-decoration: underline;
+    font-size: 1.5rem;
+    padding-top: 5px;
+  }
+  #container #main-content #the-team .description .the-team-content .leroy .leroy-desc p {
+    font-size: 1.2rem;
+    padding-top: 5px;
+    width: 95%;
+  }
+  #container #main-content #the-team .description .the-team-content .roberto {
+    flex-direction: row;
+    max-width: 100%;
+  }
+  #container #main-content #the-team .description .the-team-content .roberto img {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+    height: 75%;
+  }
+  #container #main-content #the-team .description .the-team-content .roberto .roberto-desc {
+    margin-left: 1%;
+  }
+  #container #main-content #the-team .description .the-team-content .roberto .roberto-desc h2 {
+    text-decoration: underline;
+    font-size: 1.5rem;
+    padding-top: 5px;
+  }
+  #container #main-content #the-team .description .the-team-content .roberto .roberto-desc p {
+    font-size: 1.2rem;
+    padding-top: 5px;
+    width: 95%;
+  }
+}
 #container #main-content #contact {
   height: 150vh;
   background-image: url("photo-1528747045269-390fe33c19f2.jpg");
