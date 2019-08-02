@@ -416,6 +416,13 @@ table {
   display: flex;
   justify-content: space-around;
 }
+#container #main-content #the-team .description .the-team-content .anna .anna-desc .icons a {
+  color: black;
+  text-decoration: none;
+}
+#container #main-content #the-team .description .the-team-content .anna .anna-desc .icons a:hover {
+  color: #6096BA;
+}
 #container #main-content #the-team .description .the-team-content .kai {
   display: flex;
   flex-direction: column;
@@ -439,6 +446,13 @@ table {
   display: flex;
   justify-content: space-around;
 }
+#container #main-content #the-team .description .the-team-content .kai .kai-desc .icons a {
+  color: black;
+  text-decoration: none;
+}
+#container #main-content #the-team .description .the-team-content .kai .kai-desc .icons a:hover {
+  color: #6096BA;
+}
 #container #main-content #the-team .description .the-team-content .leroy {
   display: flex;
   flex-direction: column;
@@ -461,6 +475,15 @@ table {
 #container #main-content #the-team .description .the-team-content .leroy .leroy-desc .icons {
   display: flex;
   justify-content: space-around;
+  color: black;
+  text-decoration: none;
+}
+#container #main-content #the-team .description .the-team-content .leroy .leroy-desc .icons a {
+  color: black;
+  text-decoration: none;
+}
+#container #main-content #the-team .description .the-team-content .leroy .leroy-desc .icons a:hover {
+  color: #6096BA;
 }
 #container #main-content #the-team .description .the-team-content .roberto {
   display: flex;
@@ -484,6 +507,13 @@ table {
 #container #main-content #the-team .description .the-team-content .roberto .roberto-desc .icons {
   display: flex;
   justify-content: space-around;
+}
+#container #main-content #the-team .description .the-team-content .roberto .roberto-desc .icons a {
+  color: black;
+  text-decoration: none;
+}
+#container #main-content #the-team .description .the-team-content .roberto .roberto-desc .icons a:hover {
+  color: #6096BA;
 }
 @media (max-width: 500px) {
   #container #main-content #the-team .description .the-team-content {
