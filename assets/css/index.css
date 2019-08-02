@@ -30,6 +30,32 @@
     padding: 20px;
   }
 }
+@media (max-width: 500px) {
+  .team-content-in-mobile {
+    max-height: 100vh;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .bios-in-mobile {
+    max-width: 49%;
+  }
+  .bios-in-mobile h2 {
+    text-align: left;
+    font-size: 1rem;
+    padding-top: 5%;
+  }
+  .bios-in-mobile p {
+    font-size: 0.6rem;
+    padding-top: 26%;
+    padding-bottom: 10%;
+    width: 120%;
+  }
+  .bios-in-mobile .icons {
+    display: flex;
+    justify-content: space-around;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -526,19 +552,22 @@ table {
   #container #main-content #the-team .description .the-team-content .anna img {
     padding-left: 5px;
     padding-right: 5px;
-    width: 50%;
-    height: 75%;
+    width: 25%;
+    height: auto;
   }
   #container #main-content #the-team .description .the-team-content .anna .anna-desc {
     margin-left: 1%;
   }
+  #container #main-content #the-team .description .the-team-content .anna .anna-desc .icons {
+    font-size: 1.4rem;
+  }
   #container #main-content #the-team .description .the-team-content .anna .anna-desc h2 {
     text-decoration: underline;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding-top: 5px;
   }
   #container #main-content #the-team .description .the-team-content .anna .anna-desc p {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     padding-top: 5px;
     width: 95%;
   }
@@ -549,19 +578,22 @@ table {
   #container #main-content #the-team .description .the-team-content .kai img {
     padding-left: 5px;
     padding-right: 5px;
-    width: 50%;
-    height: 75%;
+    width: 25%;
+    height: auto;
   }
   #container #main-content #the-team .description .the-team-content .kai .kai-desc {
     margin-left: 1%;
   }
+  #container #main-content #the-team .description .the-team-content .kai .kai-desc .icons {
+    font-size: 1.4rem;
+  }
   #container #main-content #the-team .description .the-team-content .kai .kai-desc h2 {
     text-decoration: underline;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding-top: 5px;
   }
   #container #main-content #the-team .description .the-team-content .kai .kai-desc p {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     padding-top: 5px;
     width: 95%;
   }
@@ -572,19 +604,22 @@ table {
   #container #main-content #the-team .description .the-team-content .leroy img {
     padding-left: 5px;
     padding-right: 5px;
-    width: 50%;
-    height: 75%;
+    width: 25%;
+    height: auto;
   }
   #container #main-content #the-team .description .the-team-content .leroy .leroy-desc {
     margin-left: 1%;
   }
+  #container #main-content #the-team .description .the-team-content .leroy .leroy-desc .icons {
+    font-size: 1.4rem;
+  }
   #container #main-content #the-team .description .the-team-content .leroy .leroy-desc h2 {
     text-decoration: underline;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding-top: 5px;
   }
   #container #main-content #the-team .description .the-team-content .leroy .leroy-desc p {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     padding-top: 5px;
     width: 95%;
   }
@@ -595,19 +630,22 @@ table {
   #container #main-content #the-team .description .the-team-content .roberto img {
     padding-left: 5px;
     padding-right: 5px;
-    width: 50%;
-    height: 75%;
+    width: 25%;
+    height: auto;
   }
   #container #main-content #the-team .description .the-team-content .roberto .roberto-desc {
     margin-left: 1%;
   }
+  #container #main-content #the-team .description .the-team-content .roberto .roberto-desc .icons {
+    font-size: 1.4rem;
+  }
   #container #main-content #the-team .description .the-team-content .roberto .roberto-desc h2 {
     text-decoration: underline;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding-top: 5px;
   }
   #container #main-content #the-team .description .the-team-content .roberto .roberto-desc p {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     padding-top: 5px;
     width: 95%;
   }
