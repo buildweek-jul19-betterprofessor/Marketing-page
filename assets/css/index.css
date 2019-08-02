@@ -541,6 +541,7 @@ table {
     font-size: 1.2rem;
     padding-top: 5px;
     width: 95%;
+    padding-bottom: 3%;
   }
   #container #main-content #the-team .description .the-team-content .kai {
     flex-direction: row;
@@ -564,6 +565,7 @@ table {
     font-size: 1.2rem;
     padding-top: 5px;
     width: 95%;
+    padding-bottom: 5%;
   }
   #container #main-content #the-team .description .the-team-content .leroy {
     flex-direction: row;
@@ -587,6 +589,7 @@ table {
     font-size: 1.2rem;
     padding-top: 5px;
     width: 95%;
+    padding-bottom: 3%;
   }
   #container #main-content #the-team .description .the-team-content .roberto {
     flex-direction: row;
@@ -610,6 +613,7 @@ table {
     font-size: 1.2rem;
     padding-top: 5px;
     width: 95%;
+    padding-bottom: 4%;
   }
 }
 #container #main-content #contact {
