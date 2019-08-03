@@ -426,6 +426,8 @@ table {
 }
 #container #main-content #the-team .description .the-team-content .anna img {
   width: 100%;
+  border-radius: 50%;
+  padding-bottom: 5%;
 }
 #container #main-content #the-team .description .the-team-content .anna .anna-desc h2 {
   text-align: center;
@@ -456,6 +458,8 @@ table {
 }
 #container #main-content #the-team .description .the-team-content .kai img {
   width: 100%;
+  border-radius: 50%;
+  padding-bottom: 5%;
 }
 #container #main-content #the-team .description .the-team-content .kai .kai-desc h2 {
   text-align: center;
@@ -486,6 +490,8 @@ table {
 }
 #container #main-content #the-team .description .the-team-content .leroy img {
   width: 100%;
+  border-radius: 50%;
+  padding-bottom: 5%;
 }
 #container #main-content #the-team .description .the-team-content .leroy .leroy-desc h2 {
   text-align: center;
@@ -518,6 +524,8 @@ table {
 }
 #container #main-content #the-team .description .the-team-content .roberto img {
   width: 100%;
+  border-radius: 50%;
+  padding-bottom: 5%;
 }
 #container #main-content #the-team .description .the-team-content .roberto .roberto-desc h2 {
   text-align: center;
@@ -552,8 +560,9 @@ table {
   #container #main-content #the-team .description .the-team-content .anna img {
     padding-left: 5px;
     padding-right: 5px;
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 75%;
+    padding-bottom: 0%;
   }
   #container #main-content #the-team .description .the-team-content .anna .anna-desc {
     margin-left: 1%;
@@ -570,16 +579,19 @@ table {
     font-size: 1.2rem;
     padding-top: 5px;
     width: 95%;
+    padding-bottom: 3%;
   }
   #container #main-content #the-team .description .the-team-content .kai {
     flex-direction: row;
     max-width: 100%;
+    padding-top: 5%;
   }
   #container #main-content #the-team .description .the-team-content .kai img {
     padding-left: 5px;
     padding-right: 5px;
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 75%;
+    padding-bottom: 0%;
   }
   #container #main-content #the-team .description .the-team-content .kai .kai-desc {
     margin-left: 1%;
@@ -596,16 +608,19 @@ table {
     font-size: 1.2rem;
     padding-top: 5px;
     width: 95%;
+    padding-bottom: 5%;
   }
   #container #main-content #the-team .description .the-team-content .leroy {
     flex-direction: row;
     max-width: 100%;
+    padding-top: 5%;
   }
   #container #main-content #the-team .description .the-team-content .leroy img {
     padding-left: 5px;
     padding-right: 5px;
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 75%;
+    padding-bottom: 0%;
   }
   #container #main-content #the-team .description .the-team-content .leroy .leroy-desc {
     margin-left: 1%;
@@ -622,16 +637,19 @@ table {
     font-size: 1.2rem;
     padding-top: 5px;
     width: 95%;
+    padding-bottom: 3%;
   }
   #container #main-content #the-team .description .the-team-content .roberto {
     flex-direction: row;
     max-width: 100%;
+    padding-top: 5%;
   }
   #container #main-content #the-team .description .the-team-content .roberto img {
     padding-left: 5px;
     padding-right: 5px;
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 75%;
+    padding-bottom: 0%;
   }
   #container #main-content #the-team .description .the-team-content .roberto .roberto-desc {
     margin-left: 1%;
@@ -648,6 +666,7 @@ table {
     font-size: 1.2rem;
     padding-top: 5px;
     width: 95%;
+    padding-bottom: 4%;
   }
 }
 #container #main-content #contact {
