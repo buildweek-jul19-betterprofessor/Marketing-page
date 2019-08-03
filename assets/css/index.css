@@ -552,7 +552,7 @@ table {
   #container #main-content #the-team .description .the-team-content .anna img {
     padding-left: 5px;
     padding-right: 5px;
-    width: 25%;
+    width: 100%;
     height: auto;
   }
   #container #main-content #the-team .description .the-team-content .anna .anna-desc {
@@ -563,11 +563,11 @@ table {
   }
   #container #main-content #the-team .description .the-team-content .anna .anna-desc h2 {
     text-decoration: underline;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding-top: 5px;
   }
   #container #main-content #the-team .description .the-team-content .anna .anna-desc p {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     padding-top: 5px;
     width: 95%;
   }
@@ -578,7 +578,7 @@ table {
   #container #main-content #the-team .description .the-team-content .kai img {
     padding-left: 5px;
     padding-right: 5px;
-    width: 25%;
+    width: 100%;
     height: auto;
   }
   #container #main-content #the-team .description .the-team-content .kai .kai-desc {
@@ -589,11 +589,11 @@ table {
   }
   #container #main-content #the-team .description .the-team-content .kai .kai-desc h2 {
     text-decoration: underline;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding-top: 5px;
   }
   #container #main-content #the-team .description .the-team-content .kai .kai-desc p {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     padding-top: 5px;
     width: 95%;
   }
@@ -604,7 +604,7 @@ table {
   #container #main-content #the-team .description .the-team-content .leroy img {
     padding-left: 5px;
     padding-right: 5px;
-    width: 25%;
+    width: 100%;
     height: auto;
   }
   #container #main-content #the-team .description .the-team-content .leroy .leroy-desc {
@@ -615,11 +615,11 @@ table {
   }
   #container #main-content #the-team .description .the-team-content .leroy .leroy-desc h2 {
     text-decoration: underline;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding-top: 5px;
   }
   #container #main-content #the-team .description .the-team-content .leroy .leroy-desc p {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     padding-top: 5px;
     width: 95%;
   }
@@ -630,7 +630,7 @@ table {
   #container #main-content #the-team .description .the-team-content .roberto img {
     padding-left: 5px;
     padding-right: 5px;
-    width: 25%;
+    width: 100%;
     height: auto;
   }
   #container #main-content #the-team .description .the-team-content .roberto .roberto-desc {
@@ -641,11 +641,11 @@ table {
   }
   #container #main-content #the-team .description .the-team-content .roberto .roberto-desc h2 {
     text-decoration: underline;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding-top: 5px;
   }
   #container #main-content #the-team .description .the-team-content .roberto .roberto-desc p {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     padding-top: 5px;
     width: 95%;
   }
