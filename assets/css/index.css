@@ -695,6 +695,11 @@ table {
     padding: 20px;
   }
 }
+@media (max-width: 500px) {
+  #container #main-content #contact .description p {
+    font-size: 0.6rem;
+  }
+}
 #container #main-content #contact .description p .app-link {
   color: black;
 }
@@ -708,6 +713,11 @@ table {
 #container #main-content #contact .description p .linked-icon:hover {
   cursor: pointer;
   color: #6096BA;
+}
+@media (max-width: 500px) {
+  #container #main-content #contact .description p {
+    font-size: 0.6rem;
+  }
 }
 #footer {
   display: flex;
