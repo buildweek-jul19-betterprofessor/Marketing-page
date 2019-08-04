@@ -388,6 +388,10 @@
         p {
           .content-subtext;
 
+          @media @mobile {
+            font-size: 0.6rem;
+          }
+
           .app-link {
             color: black;
           }
@@ -404,6 +408,12 @@
           .linked-icon:hover {
             cursor: pointer;
             color: @silverlakeblue;
+          }
+        }
+
+        @media @mobile {
+          p {
+            font-size: 0.6rem;
           }
         }
       }
